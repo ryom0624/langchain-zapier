@@ -5,7 +5,7 @@ from langchain.agents import initialize_agent
 from langchain.agents.agent_toolkits import ZapierToolkit
 from langchain.utilities.zapier import ZapierNLAWrapper
 
-slack_channel_name = "#_debug"
+slack_channel_name = "#slack_channel_name"
 
 # get from https://platform.openai.com/
 os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "sk-...")
